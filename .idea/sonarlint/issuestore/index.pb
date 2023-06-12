@@ -33,7 +33,3 @@ Zcommon/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/
 acommon/common-domain/src/main/java/com/food/ordering/system/domain/exception/DomainException.java,b/4/b40f054c34c72fa3e8336392a5cbde9134751ae1
 ‰
 Ycommon/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/Money.java,b/8/b8e27400dab2e49ca3b3b9925a174e77a45ae28f
-®
-~order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/OrderItem.java,d/9/d9726cae4241ed728bf9bdc8989f5307a850d5b7
-ª
-zorder-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java,c/4/c4e5ed365a5d2060be9047f4d86448ac1bee9e42
