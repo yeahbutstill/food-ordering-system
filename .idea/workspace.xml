@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34be4a74-eacd-4b81-89de-4644eea1e796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/OrderDomainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderCancelledEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/event/OrderPaidEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89671dba0b49b1a9ddccb985e45b526845e3d3aa" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/OrderDomainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8e27400dab2e49ca3b3b9925a174e77a45ae28f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/9/89671dba0b49b1a9ddccb985e45b526845e3d3aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8e27400dab2e49ca3b3b9925a174e77a45ae28f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RESTKit.sync.cert.Ide": "true",
     "RESTKit.sync.env.Ide": "true",
     "RESTKit.sync.requestConfig.Ide": "true",
@@ -87,7 +87,7 @@
       <workItem from="1686517389447" duration="1541000" />
       <workItem from="1686525889947" duration="6329000" />
       <workItem from="1686574953743" duration="4667000" />
-      <workItem from="1686588150609" duration="4229000" />
+      <workItem from="1686588150609" duration="7975000" />
     </task>
     <servers />
   </component>
