@@ -2,9 +2,9 @@ package com.food.ordering.system.domain.valueobject;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Objects;
 
 public class Money {
-
     private final BigDecimal amount;
 
     public static final Money ZERO = new Money(BigDecimal.ZERO);
@@ -40,18 +40,17 @@ public class Money {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Money money)) return false;
-
-        return getAmount().equals(money.getAmount());
+        if (o == null || getClass() != o.getClass()) return false;
+        Money money = (Money) o;
+        return amount.equals(money.amount);
     }
 
     @Override
     public int hashCode() {
-        return getAmount().hashCode();
+        return Objects.hash(amount);
     }
 
     private BigDecimal setScale(BigDecimal input) {
         return input.setScale(2, RoundingMode.HALF_EVEN);
     }
-
 }

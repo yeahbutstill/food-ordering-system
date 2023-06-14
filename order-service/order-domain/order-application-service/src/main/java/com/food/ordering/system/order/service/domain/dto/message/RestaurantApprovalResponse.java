@@ -9,8 +9,8 @@ import java.time.Instant;
 import java.util.List;
 
 @Getter
-@AllArgsConstructor
 @Builder
+@AllArgsConstructor
 public class RestaurantApprovalResponse {
     private String id;
     private String sagaId;

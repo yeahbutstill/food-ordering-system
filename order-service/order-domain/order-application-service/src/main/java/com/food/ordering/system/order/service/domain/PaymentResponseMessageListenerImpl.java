@@ -10,17 +10,12 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 @Service
 public class PaymentResponseMessageListenerImpl implements PaymentResponseMessageListener {
-    /**
-     * @param paymentResponse
-     */
+
     @Override
     public void paymentCompleted(PaymentResponse paymentResponse) {
 
     }
 
-    /**
-     * @param paymentResponse
-     */
     @Override
     public void paymentCancelled(PaymentResponse paymentResponse) {
 

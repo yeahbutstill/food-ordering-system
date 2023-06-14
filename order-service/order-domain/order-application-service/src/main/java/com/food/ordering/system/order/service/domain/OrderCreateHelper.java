@@ -22,13 +22,19 @@ import java.util.UUID;
 public class OrderCreateHelper {
 
     private final OrderDomainService orderDomainService;
+
     private final OrderRepository orderRepository;
+
     private final CustomerRepository customerRepository;
+
     private final RestaurantRepository restaurantRepository;
+
     private final OrderDataMapper orderDataMapper;
 
-    public OrderCreateHelper(OrderDomainService orderDomainService, OrderRepository orderRepository,
-                             CustomerRepository customerRepository, RestaurantRepository restaurantRepository,
+    public OrderCreateHelper(OrderDomainService orderDomainService,
+                             OrderRepository orderRepository,
+                             CustomerRepository customerRepository,
+                             RestaurantRepository restaurantRepository,
                              OrderDataMapper orderDataMapper) {
         this.orderDomainService = orderDomainService;
         this.orderRepository = orderRepository;
@@ -45,7 +51,6 @@ public class OrderCreateHelper {
         OrderCreatedEvent orderCreatedEvent = orderDomainService.validateAndInitiateOrder(order, restaurant);
         saveOrder(order);
         log.info("Order is created with id: {}", orderCreatedEvent.getOrder().getId().getValue());
-
         return orderCreatedEvent;
     }
 
@@ -57,7 +62,6 @@ public class OrderCreateHelper {
             throw new OrderDomainException("Could not find restaurant with restaurant id: " +
                     createOrderCommand.getRestaurantId());
         }
-
         return optionalRestaurant.get();
     }
 
@@ -72,12 +76,10 @@ public class OrderCreateHelper {
     private Order saveOrder(Order order) {
         Order orderResult = orderRepository.save(order);
         if (orderResult == null) {
-            log.error("Could not save order with order id: {}", order.getId());
-            throw new OrderDomainException("Could not save order with order id: " + orderResult.getId());
+            log.error("Could not save order!");
+            throw new OrderDomainException("Could not save order!");
         }
-        log.info("Order is saved with order id: {}", orderResult.getId().getValue());
-
+        log.info("Order is saved with id: {}", orderResult.getId().getValue());
         return orderResult;
     }
-
 }

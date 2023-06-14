@@ -1,7 +1,8 @@
 package com.food.ordering.system.domain.entity;
 
-public abstract class BaseEntity<ID> {
+import java.util.Objects;
 
+public abstract class BaseEntity<ID> {
     private ID id;
 
     public ID getId() {
@@ -15,13 +16,13 @@ public abstract class BaseEntity<ID> {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof BaseEntity<?> that)) return false;
-
-        return getId().equals(that.getId());
+        if (o == null || getClass() != o.getClass()) return false;
+        BaseEntity<?> that = (BaseEntity<?>) o;
+        return id.equals(that.id);
     }
 
     @Override
     public int hashCode() {
-        return getId().hashCode();
+        return Objects.hash(id);
     }
 }

@@ -18,11 +18,6 @@ public class OrderDomainServiceImpl implements OrderDomainService {
 
     private static final String UTC = "UTC";
 
-    /**
-     * @param order
-     * @param restaurant
-     * @return
-     */
     @Override
     public OrderCreatedEvent validateAndInitiateOrder(Order order, Restaurant restaurant) {
         validateRestaurant(restaurant);
@@ -33,10 +28,6 @@ public class OrderDomainServiceImpl implements OrderDomainService {
         return new OrderCreatedEvent(order, ZonedDateTime.now(ZoneId.of(UTC)));
     }
 
-    /**
-     * @param order
-     * @return
-     */
     @Override
     public OrderPaidEvent payOrder(Order order) {
         order.pay();
@@ -44,31 +35,19 @@ public class OrderDomainServiceImpl implements OrderDomainService {
         return new OrderPaidEvent(order, ZonedDateTime.now(ZoneId.of(UTC)));
     }
 
-    /**
-     * @param order
-     */
     @Override
     public void approveOrder(Order order) {
         order.approve();
         log.info("Order with id: {} is approved", order.getId().getValue());
     }
 
-    /**
-     * @param order
-     * @param failureMessages
-     * @return
-     */
     @Override
     public OrderCancelledEvent cancelOrderPayment(Order order, List<String> failureMessages) {
         order.initCancel(failureMessages);
-        log.info("Order payment is cancelling for order with id: {}", order.getId().getValue());
+        log.info("Order payment is cancelling for order id: {}", order.getId().getValue());
         return new OrderCancelledEvent(order, ZonedDateTime.now(ZoneId.of(UTC)));
     }
 
-    /**
-     * @param order
-     * @param failureMessages
-     */
     @Override
     public void cancelOrder(Order order, List<String> failureMessages) {
         order.cancel(failureMessages);
@@ -77,7 +56,7 @@ public class OrderDomainServiceImpl implements OrderDomainService {
 
     private void validateRestaurant(Restaurant restaurant) {
         if (!restaurant.isActive()) {
-            throw new OrderDomainException("Restaurant with id: {} " + restaurant.getId().getValue() +
+            throw new OrderDomainException("Restaurant with id " + restaurant.getId().getValue() +
                     " is currently not active!");
         }
     }
@@ -91,5 +70,4 @@ public class OrderDomainServiceImpl implements OrderDomainService {
             }
         }));
     }
-
 }
