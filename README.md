@@ -12,3 +12,4 @@
 - Domain Event: Used to decouple the different domains. It will notify the other domains based on result of business logic.
 - Value objects are immutable and only holds data, so identifier is not important for them. That means 2 value objects with same data, but different id’s considered to be the same value object.
 - Entity classes do not have to be immutable. In fact they have state changes methods to run during business logic
+- Application service should be the first contact point to outside of domain, and it will forward the call to the domain service and entities to complete a business logic.
