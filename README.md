@@ -14,3 +14,4 @@
 - Entity classes do not have to be immutable. In fact they have state changes methods to run during business logic
 - Application service should be the first contact point to outside of domain, and it will forward the call to the domain service and entities to complete a business logic.
 - TransactionalEventListener is a spring annotation that listens an event that is fired from a transactional method. And it only process the event if the transactional operation is completed successfully.
+- Kafka provides a replication factor. It replicates the data on different brokers on different servers. So even if one of the brokers is down, the data will still be available on other nodes.
