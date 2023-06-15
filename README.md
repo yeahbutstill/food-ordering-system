@@ -1,5 +1,37 @@
 # food-ordering-system
 
+## Run Zookeper
+```shell
+# goto directory
+cd infrastructure/docker-compose
+# run
+docker compose -f common.yml -f zookeeper.yml up
+# open new terminal test
+echo ruok | nc localhost 2181
+```
+https://zookeeper.apache.org/doc/r3.1.2/zookeeperAdmin.html#sc_zkCommands
+
+## Run Kafka Cluster
+```shell
+# cd infrastructure/docker-compose
+docker compose -f common.yml -f kafka_cluster.yml up
+# open new terminal and run this for create topic
+docker compose -f common.yml -f init_kafka.yml up
+```
+
+## Let's confirm this by opening the kafka manager user interface
+```http request
+localhost:9000
+```
+
+## Add Cluster
+![add_cluster](/home/yeahbutstill/IdeaProjects/food-ordering-system/img/img.png)
+And save. Now, if I list the clusters, I will see three brokers and a topic created using init-kafka.yml docker compose file
+![cluster_information](/home/yeahbutstill/IdeaProjects/food-ordering-system/img/img_1.png)
+
+##### ingat saat anda menggunakan pemetaan volume, anda harus terlebih dahulu memulai Zookeeper dan kemudian memulai Cluster Kafka, karena kafka cluster memeriksa kesehatan Zookeeper saat startup dan gagal jika tidak sehat
+kedepannya saya akan coba menganti docker compose dengan cp-helm-charts untuk menjalankan Cluster Kafka
+
 ## Note
 - The main target of all these architectures is to isolate the domain layer to develop, test, manage and deploy it separately.
 - SAGA is used to create long running distributed transactions across services.

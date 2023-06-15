@@ -1,4 +1,4 @@
-package com.food.ordering.system.order.service;
+package com.yeahbutstill.food.ordering.system.order.service;
 
 import com.yeahbutstill.food.ordering.system.order.service.domain.OrderDomainService;
 import com.yeahbutstill.food.ordering.system.order.service.domain.OrderDomainServiceImpl;
@@ -12,7 +12,7 @@ import org.mockito.Mockito;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(scanBasePackages = "com.food.ordering.system")
+@SpringBootApplication(scanBasePackages = "com.yeahbutstill.food.ordering.system")
 public class OrderTestConfiguration {
 
     @Bean

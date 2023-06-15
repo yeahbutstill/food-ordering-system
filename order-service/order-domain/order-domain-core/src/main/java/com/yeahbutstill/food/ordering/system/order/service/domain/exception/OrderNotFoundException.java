@@ -1,6 +1,6 @@
-package com.food.ordering.system.order.service.domain.exception;
+package com.yeahbutstill.food.ordering.system.order.service.domain.exception;
 
-import com.food.ordering.system.domain.exception.DomainException;
+import com.yeahbutstill.food.ordering.system.domain.exception.DomainException;
 
 public class OrderNotFoundException extends DomainException {
 

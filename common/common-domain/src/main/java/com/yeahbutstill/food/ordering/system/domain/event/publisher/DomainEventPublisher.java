@@ -1,6 +1,6 @@
-package com.food.ordering.system.domain.event.publisher;
+package com.yeahbutstill.food.ordering.system.domain.event.publisher;
 
-import com.food.ordering.system.domain.event.DomainEvent;
+import com.yeahbutstill.food.ordering.system.domain.event.DomainEvent;
 
 public interface DomainEventPublisher<T extends DomainEvent> {
 

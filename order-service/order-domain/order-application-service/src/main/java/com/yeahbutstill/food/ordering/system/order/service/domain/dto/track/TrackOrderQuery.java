@@ -1,4 +1,4 @@
-package com.food.ordering.system.order.service.domain.dto.track;
+package com.yeahbutstill.food.ordering.system.order.service.domain.dto.track;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

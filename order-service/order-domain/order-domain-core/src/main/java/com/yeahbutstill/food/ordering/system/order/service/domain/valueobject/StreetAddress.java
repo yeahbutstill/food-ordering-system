@@ -1,4 +1,4 @@
-package com.food.ordering.system.order.service.domain.valueobject;
+package com.yeahbutstill.food.ordering.system.order.service.domain.valueobject;
 
 import java.util.Objects;
 import java.util.UUID;

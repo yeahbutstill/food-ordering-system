@@ -1,4 +1,4 @@
-package com.food.ordering.system.domain.event;
+package com.yeahbutstill.food.ordering.system.domain.event;
 
 public interface DomainEvent<T> {
 }

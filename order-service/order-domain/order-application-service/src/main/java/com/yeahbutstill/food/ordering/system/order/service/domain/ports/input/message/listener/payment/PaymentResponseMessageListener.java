@@ -1,6 +1,6 @@
-package com.food.ordering.system.order.service.domain.ports.input.message.listener.payment;
+package com.yeahbutstill.food.ordering.system.order.service.domain.ports.input.message.listener.payment;
 
-import com.food.ordering.system.order.service.domain.dto.message.PaymentResponse;
+import com.yeahbutstill.food.ordering.system.order.service.domain.dto.message.PaymentResponse;
 
 public interface PaymentResponseMessageListener {
 

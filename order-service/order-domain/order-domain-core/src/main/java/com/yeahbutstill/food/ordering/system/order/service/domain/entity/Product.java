@@ -1,8 +1,8 @@
-package com.food.ordering.system.order.service.domain.entity;
+package com.yeahbutstill.food.ordering.system.order.service.domain.entity;
 
-import com.food.ordering.system.domain.entity.BaseEntity;
-import com.food.ordering.system.domain.valueobject.Money;
-import com.food.ordering.system.domain.valueobject.ProductId;
+import com.yeahbutstill.food.ordering.system.domain.entity.BaseEntity;
+import com.yeahbutstill.food.ordering.system.domain.valueobject.Money;
+import com.yeahbutstill.food.ordering.system.domain.valueobject.ProductId;
 
 public class Product extends BaseEntity<ProductId> {
     private String name;
