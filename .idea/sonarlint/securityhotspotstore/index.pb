@@ -13,8 +13,6 @@ U
 %order-service/order-container/pom.xml,5/e/5edc4f773e0205d9c5812143cbbd1132b3c3de4c
 W
 'order-service/order-application/pom.xml,c/1/c13909372c066d2ca806095848840a1448aaa7e1
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 d
 4order-service/order-domain/order-domain-core/pom.xml,e/2/e2c9ec2a77daaaa98761010294a2cfad7cd6acdd
 >
@@ -92,11 +90,3 @@ ainfrastructure/kafka/kafka-consumer/src/main/java/com/yeahbutstill/food/orderin
 ^infrastructure/kafka/kafka-model/src/main/java/com/yeahbutstill/food/ordering/system/Main.java,1/9/19f6154fd1d290d954ed00aab00819a83ec74e62
 ”
 dinfrastructure/kafka/kafka-config-data/src/main/java/com/yeahbutstill/food/ordering/system/Main.java,1/c/1c15a4e64a590125623e070df31c8698ef39f8fc
-[
-+infrastructure/kafka/kafka-producer/pom.xml,c/7/c7d5ce453d66546bb66d7c5bfe5df1f88d0c5862
-[
-+infrastructure/kafka/kafka-consumer/pom.xml,1/7/174450eb89f9fc83c593a3864ff160aa5b470840
-X
-(infrastructure/kafka/kafka-model/pom.xml,b/5/b5ebdc449af44ac439d81aad072e585df2d63cc3
-^
-.infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
