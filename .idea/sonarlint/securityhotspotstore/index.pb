@@ -85,8 +85,6 @@ _
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 [
-+infrastructure/kafka/kafka-producer/pom.xml,c/7/c7d5ce453d66546bb66d7c5bfe5df1f88d0c5862
-[
 +infrastructure/kafka/kafka-consumer/pom.xml,1/7/174450eb89f9fc83c593a3864ff160aa5b470840
 ≤
 Åinfrastructure/kafka/kafka-config-data/src/main/java/com/yeahbutstill/food/ordering/system/kafka/config/data/KafkaConfigData.java,b/9/b998b7554b050cf854858ccbedf59722d972689d

@@ -85,8 +85,6 @@ _
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 [
-+infrastructure/kafka/kafka-producer/pom.xml,c/7/c7d5ce453d66546bb66d7c5bfe5df1f88d0c5862
-[
 +infrastructure/kafka/kafka-consumer/pom.xml,1/7/174450eb89f9fc83c593a3864ff160aa5b470840
 ^
 .infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
