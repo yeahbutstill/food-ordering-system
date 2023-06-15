@@ -7,20 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order-messaging" />
         <module name="kafka-model" />
         <module name="order-application-service" />
-        <module name="infrastructure" />
         <module name="kafka-consumer" />
-        <module name="common-domain" />
         <module name="kafka-producer" />
-        <module name="order-application" />
         <module name="kafka-config-data" />
-        <module name="order-domain-core" />
         <module name="order-container" />
         <module name="order-dataaccess" />
+        <module name="order-messaging" />
+        <module name="common-domain" />
+        <module name="order-application" />
+        <module name="order-domain-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka1" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -33,6 +35,7 @@
       <module name="kafka-consumer" options="-parameters" />
       <module name="kafka-model" options="-parameters" />
       <module name="kafka-producer" options="-parameters" />
+      <module name="kafka1" options="-parameters" />
       <module name="order-application" options="-parameters" />
       <module name="order-application-service" options="-parameters" />
       <module name="order-container" options="-parameters" />
