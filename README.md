@@ -47,3 +47,7 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - Application service should be the first contact point to outside of domain, and it will forward the call to the domain service and entities to complete a business logic.
 - TransactionalEventListener is a spring annotation that listens an event that is fired from a transactional method. And it only process the event if the transactional operation is completed successfully.
 - Kafka provides a replication factor. It replicates the data on different brokers on different servers. So even if one of the brokers is down, the data will still be available on other nodes.
+- KafkaTemplate is a spring component that wraps a Kafka Producer and provides method to easily produce data on kafka. 
+- To create a Kafka Consumer with spring, using a KafkaListener annotation on a simple method is enough. 
+- If my kafka topic has n partitions, I cannot use more than n threads to consume the data on topics. 
+- Kafka Consumer has a max poll records property that limits the number of records returned for a single poll.

@@ -82,8 +82,6 @@ _
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ^
 .infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
 º
