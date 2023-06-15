@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34be4a74-eacd-4b81-89de-4644eea1e796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/producer/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/producer/exception/KafkaProducerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/producer/service/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/producer/service/impl/KafkaProducerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7d5ce453d66546bb66d7c5bfe5df1f88d0c5862" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/consumer/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/src/main/java/com/yeahbutstill/food/ordering/system/kafka/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/174450eb89f9fc83c593a3864ff160aa5b470840" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c7d5ce453d66546bb66d7c5bfe5df1f88d0c5862" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/174450eb89f9fc83c593a3864ff160aa5b470840" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/kafka/kafka-consumer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "fba5e3d7898a418a6a680afb3db782be",
+    "spring.configuration.checksum": "65b7d488b25ff63ab876526d36be651e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -214,7 +212,8 @@
       <workItem from="1686815137714" duration="256000" />
       <workItem from="1686815421637" duration="1579000" />
       <workItem from="1686817005173" duration="7756000" />
-      <workItem from="1686846944512" duration="8611000" />
+      <workItem from="1686846944512" duration="10147000" />
+      <workItem from="1686869702752" duration="1819000" />
     </task>
     <servers />
   </component>
