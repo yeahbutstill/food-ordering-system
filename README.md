@@ -30,7 +30,7 @@ And save. Now, if I list the clusters, I will see three brokers and a topic crea
 ![cluster_information](/home/yeahbutstill/IdeaProjects/food-ordering-system/img/img_1.png)
 
 ##### ingat saat anda menggunakan pemetaan volume, anda harus terlebih dahulu memulai Zookeeper dan kemudian memulai Cluster Kafka, karena kafka cluster memeriksa kesehatan Zookeeper saat startup dan gagal jika tidak sehat
-kedepannya saya akan coba menganti docker compose dengan cp-helm-charts untuk menjalankan Cluster Kafka
+kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kubernetes untuk menjalankan Cluster Kafka
 
 ## Note
 - The main target of all these architectures is to isolate the domain layer to develop, test, manage and deploy it separately.
