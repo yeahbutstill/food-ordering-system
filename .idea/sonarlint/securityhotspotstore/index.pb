@@ -29,8 +29,6 @@ ncommon/common-domain/src/main/java/com/yeahbutstill/food/ordering/system/domain
 ‰order-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/entity/Product.java,6/0/60816a08d16ce1db0e5918bc559008cf0954b5f4
 ¼
 ‹order-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/event/OrderEvent.java,b/d/bd5bb8bb036e55ba04deb8a39c85ef03625b2b16
-»
-Šorder-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/entity/Customer.java,0/b/0b81916da50c84622f6591c154a21e1caefeb8e8
 Â
 ‘order-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/valueobject/TrackingId.java,c/2/c2a7fee5fd4065632a3842f3982a2aa2b3a33a9a
 ½
