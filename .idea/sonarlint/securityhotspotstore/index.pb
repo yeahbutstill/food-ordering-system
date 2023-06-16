@@ -1,10 +1,6 @@
 
-U
-%order-service/order-messaging/pom.xml,c/1/c19aa6db8e37c3805307311ca17ddea372646d36
 R
 "order-service/order-domain/pom.xml,6/c/6c488d4235eb8af9fe6c7a0dcd6d396f5fb3b9db
-l
-<order-service/order-domain/order-application-service/pom.xml,7/8/788638a3f575d9e226f07937dfe43f5e87b6139f
 U
 %order-service/order-container/pom.xml,5/e/5edc4f773e0205d9c5812143cbbd1132b3c3de4c
 d
@@ -116,8 +112,6 @@ Q
 ocommon/common-application/src/main/java/com/yeahbutstill/food/ordering/system/application/handler/ErrorDTO.java,1/7/170520c364ef935be35e33a719ba6c72f443c870
 E
 order-service/pom.xml,d/3/d3bf53ecc442740843266a635cbfe9807b992566
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 W
 'order-service/order-application/pom.xml,c/1/c13909372c066d2ca806095848840a1448aaa7e1
 ­
