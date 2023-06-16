@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34be4a74-eacd-4b81-89de-4644eea1e796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderAddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntityId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/adapter/OrderRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/mapper/OrderDataAccessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/repository/OrderJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66ec97ae234fe56dedbf7441a1fd6db930968843" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/66ec97ae234fe56dedbf7441a1fd6db930968843" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/yeahbutstill/food/ordering/system/order/service/domain/entity/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "liberica-17",
-    "last_opened_file_path": "/home/yeahbutstill/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/restaurant",
+    "last_opened_file_path": "/home/yeahbutstill/IdeaProjects/food-ordering-system/img/project-overview-section-1.png",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,7 +112,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "65b7d488b25ff63ab876526d36be651e",
+    "spring.configuration.checksum": "a6ea1a840e896049c408ebe6a99a69fb",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -192,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in order-application-service" />
-        <item itemvalue="JUnit.service in order-application-service (1)" />
         <item itemvalue="JUnit.service in order-application-service" />
-        <item itemvalue="JUnit.OrderApplicationServiceTest (1)" />
+        <item itemvalue="JUnit.service in order-application-service (1)" />
+        <item itemvalue="JUnit.java in order-application-service" />
         <item itemvalue="JUnit.OrderApplicationServiceTest.testCreateOrderWithWrongProductPrice" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +225,9 @@
       <workItem from="1686815421637" duration="1579000" />
       <workItem from="1686817005173" duration="7756000" />
       <workItem from="1686846944512" duration="10147000" />
-      <workItem from="1686869702752" duration="15604000" />
+      <workItem from="1686869702752" duration="16052000" />
+      <workItem from="1686922306195" duration="1569000" />
+      <workItem from="1686926346178" duration="5361000" />
     </task>
     <servers />
   </component>

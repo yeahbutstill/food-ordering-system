@@ -1,5 +1,8 @@
 # food-ordering-system
 
+![1](img/project-overview-section-1.png)
+
+
 ## Run Zookeper
 ```shell
 # goto directory
@@ -25,9 +28,9 @@ localhost:9000
 ```
 
 ## Add Cluster
-![add_cluster](/home/yeahbutstill/IdeaProjects/food-ordering-system/img/img.png)
+![add_cluster](img/img.png)
 And save. Now, if I list the clusters, I will see three brokers and a topic created using init-kafka.yml docker compose file
-![cluster_information](/home/yeahbutstill/IdeaProjects/food-ordering-system/img/img_1.png)
+![cluster_information](img/img_1.png)
 
 ##### ingat saat anda menggunakan pemetaan volume, anda harus terlebih dahulu memulai Zookeeper dan kemudian memulai Cluster Kafka, karena kafka cluster memeriksa kesehatan Zookeeper saat startup dan gagal jika tidak sehat
 kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kubernetes untuk menjalankan Cluster Kafka
