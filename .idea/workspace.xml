@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34be4a74-eacd-4b81-89de-4644eea1e796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common-application/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-application/src/main/java/com/yeahbutstill/food/ordering/system/application/handler/ErrorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-application/src/main/java/com/yeahbutstill/food/ordering/system/application/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/com/yeahbutstill/food/ordering/system/order/service/application/exception/handler/OrderGlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3bf53ecc442740843266a635cbfe9807b992566" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderAddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntityId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d3bf53ecc442740843266a635cbfe9807b992566" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-dataaccess/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +65,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -79,6 +77,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2R4ZSGvD0yI8RG0hByQ3Ure4oJd" />
   <component name="ProjectLevelVcsManager">
@@ -103,7 +104,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "liberica-17",
-    "last_opened_file_path": "/home/yeahbutstill/IdeaProjects/food-ordering-system/img",
+    "last_opened_file_path": "/home/yeahbutstill/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/restaurant",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,14 +120,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yeahbutstill.food.ordering.system.order.service.dataaccess.order.entity" />
       <recent name="com.yeahbutstill.food.ordering.system.order.service.application.exception.handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/restaurant" />
+      <recent name="$PROJECT_DIR$/order-service/order-dataaccess/src/main/java/com/yeahbutstill/food/ordering/system/order/service/dataaccess/customer" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-config-data/src/main/java/com/yeahbutstill/food/ordering/system/kafka/config/data" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/infrastructure/docker-compose" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/infrastructure/kafka" />
@@ -225,7 +227,7 @@
       <workItem from="1686815421637" duration="1579000" />
       <workItem from="1686817005173" duration="7756000" />
       <workItem from="1686846944512" duration="10147000" />
-      <workItem from="1686869702752" duration="8835000" />
+      <workItem from="1686869702752" duration="15604000" />
     </task>
     <servers />
   </component>

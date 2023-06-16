@@ -51,3 +51,7 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - To create a Kafka Consumer with spring, using a KafkaListener annotation on a simple method is enough. 
 - If my kafka topic has n partitions, I cannot use more than n threads to consume the data on topics. 
 - Kafka Consumer has a max poll records property that limits the number of records returned for a single poll.
+- ControllerAdvice: Used to catch exceptions application wide. 
+- RestController: Used to create a rest controller with path mapping, and accept type. 
+- RequestBody: Used to mark a java class as a request body in the rest request. Spring will map the json body into this class by setting the values automatically. 
+- PostMapping: Used to create a method that will serve to a http post request.
