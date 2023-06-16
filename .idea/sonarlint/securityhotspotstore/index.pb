@@ -11,8 +11,6 @@ V
 &order-service/order-dataaccess/pom.xml,9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8
 U
 %order-service/order-container/pom.xml,5/e/5edc4f773e0205d9c5812143cbbd1132b3c3de4c
-W
-'order-service/order-application/pom.xml,c/1/c13909372c066d2ca806095848840a1448aaa7e1
 d
 4order-service/order-domain/order-domain-core/pom.xml,e/2/e2c9ec2a77daaaa98761010294a2cfad7cd6acdd
 >
