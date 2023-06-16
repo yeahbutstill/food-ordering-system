@@ -3,8 +3,6 @@ U
 %order-service/order-messaging/pom.xml,c/1/c19aa6db8e37c3805307311ca17ddea372646d36
 R
 "order-service/order-domain/pom.xml,6/c/6c488d4235eb8af9fe6c7a0dcd6d396f5fb3b9db
-E
-order-service/pom.xml,d/3/d3bf53ecc442740843266a635cbfe9807b992566
 l
 <order-service/order-domain/order-application-service/pom.xml,7/8/788638a3f575d9e226f07937dfe43f5e87b6139f
 V
@@ -90,8 +88,6 @@ _
 .infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
 F
 infrastructure/pom.xml,2/b/2bb83dd43ff74bd2017133cd9dea6897cfe43de3
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 L
 infrastructure/kafka/pom.xml,5/7/57d8d8349e1f824686cd44fe2200377b17148804
 µ

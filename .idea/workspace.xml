@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34be4a74-eacd-4b81-89de-4644eea1e796" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/event-flow-with-ports.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/order-request-simple-flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/com/yeahbutstill/food/ordering/system/order/service/application/rest/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c13909372c066d2ca806095848840a1448aaa7e1" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-application/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-application/src/main/java/com/yeahbutstill/food/ordering/system/application/handler/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-application/src/main/java/com/yeahbutstill/food/ordering/system/application/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/order-application/src/main/java/com/yeahbutstill/food/ordering/system/order/service/application/exception/handler/OrderGlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3bf53ecc442740843266a635cbfe9807b992566" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c13909372c066d2ca806095848840a1448aaa7e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d3bf53ecc442740843266a635cbfe9807b992566" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/order-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,12 +112,15 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "65b7d488b25ff63ab876526d36be651e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yeahbutstill.food.ordering.system.order.service.application.exception.handler" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/infrastructure/kafka/kafka-model/src/main/resources/avro" />
@@ -214,7 +225,7 @@
       <workItem from="1686815421637" duration="1579000" />
       <workItem from="1686817005173" duration="7756000" />
       <workItem from="1686846944512" duration="10147000" />
-      <workItem from="1686869702752" duration="4403000" />
+      <workItem from="1686869702752" duration="8835000" />
     </task>
     <servers />
   </component>

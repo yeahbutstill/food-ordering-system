@@ -7,17 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-application" />
+        <module name="order-messaging" />
         <module name="kafka-model" />
         <module name="order-application-service" />
         <module name="kafka-consumer" />
         <module name="kafka-producer" />
-        <module name="kafka-config-data" />
-        <module name="order-container" />
-        <module name="order-dataaccess" />
-        <module name="order-messaging" />
         <module name="common-domain" />
         <module name="order-application" />
+        <module name="kafka-config-data" />
         <module name="order-domain-core" />
+        <module name="order-container" />
+        <module name="order-dataaccess" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="common-application" options="-parameters" />
       <module name="common-domain" options="-parameters" />
       <module name="food-ordering-system" options="-parameters" />
       <module name="infrastructure" options="-parameters" />
