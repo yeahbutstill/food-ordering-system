@@ -45,8 +45,6 @@ ncommon/common-domain/src/main/java/com/yeahbutstill/food/ordering/system/domain
 ’order-service/order-domain/order-application-service/src/test/java/com/yeahbutstill/food/ordering/system/order/service/OrderTestConfiguration.java,e/8/e8f2fb1148a6dcf934531f0a1155737caa740105
 X
 (infrastructure/docker-compose/common.yml,5/9/59e2079c706300654edfdfefb1b0258617f514b7
-[
-+infrastructure/docker-compose/zookeeper.yml,2/5/25078b0f9296433af7750df1603d7c084625fc0f
 R
 "infrastructure/docker-compose/.env,8/4/84825da1de32497b36ece2e7280bf9e7ea2fc807
 È

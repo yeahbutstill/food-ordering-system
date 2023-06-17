@@ -51,8 +51,6 @@ X
 (infrastructure/docker-compose/common.yml,5/9/59e2079c706300654edfdfefb1b0258617f514b7
 \
 ,infrastructure/docker-compose/init_kafka.yml,1/2/12c3aaa4a5ab6d91f1d0c2439dd959f1f4446e70
-[
-+infrastructure/docker-compose/zookeeper.yml,2/5/25078b0f9296433af7750df1603d7c084625fc0f
 ^
 .infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
 F
