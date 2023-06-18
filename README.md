@@ -27,6 +27,8 @@ postgres:15
 cd infrastructure/docker-compose
 # run
 docker compose -f common.yml -f zookeeper.yml up
+# to stop
+docker compose -f common.yml -f zookeeper.yml down
 # open new terminal test
 echo ruok | nc localhost 2181
 ```
@@ -36,6 +38,8 @@ https://zookeeper.apache.org/doc/r3.1.2/zookeeperAdmin.html#sc_zkCommands
 ```shell
 # cd infrastructure/docker-compose
 docker compose -f common.yml -f kafka_cluster.yml up
+# to stop
+docker compose -f common.yml -f kafka_cluster.yml down
 # open new terminal and run this for create topic
 docker compose -f common.yml -f init_kafka.yml up
 ```
