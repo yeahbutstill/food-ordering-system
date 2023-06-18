@@ -50,6 +50,11 @@ localhost:9000
 And save. Now, if I list the clusters, I will see three brokers and a topic created using init-kafka.yml docker compose file
 ![cluster_information](img/img_1.png)
 
+## Check data in topic using kafkacat
+```shell
+kcat -C -b localhost:19092 -t payment-request
+```
+
 ##### ingat saat anda menggunakan pemetaan volume, anda harus terlebih dahulu memulai Zookeeper dan kemudian memulai Cluster Kafka, karena kafka cluster memeriksa kesehatan Zookeeper saat startup dan gagal jika tidak sehat
 kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kubernetes untuk menjalankan Cluster Kafka
 

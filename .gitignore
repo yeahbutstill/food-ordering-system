@@ -40,4 +40,4 @@ build/
 
 ## infra
 /infrastructure/docker-compose/volumes/
-food-ordering-systemdb-data
+postgres-data
