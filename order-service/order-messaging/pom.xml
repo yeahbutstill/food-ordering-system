@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>order-service</artifactId>
-        <groupId>com.yeahbutstill.food.ordering.system</groupId>
+        <groupId>com.food.ordering.system</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -17,19 +17,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-application-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>kafka-producer</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>kafka-consumer</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>kafka-model</artifactId>
         </dependency>
     </dependencies>

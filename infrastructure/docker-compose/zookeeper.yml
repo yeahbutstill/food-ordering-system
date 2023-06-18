@@ -1,11 +1,9 @@
 version: '3.7'
-
 services:
   zookeeper:
     image: confluentinc/cp-zookeeper:${KAFKA_VERSION:-latest}
     hostname: zookeeper
     ports:
-      # port default zookeeper
       - "2181:2181"
     environment:
       ZOOKEEPER_SERVER_ID: 1
@@ -14,7 +12,6 @@ services:
       ZOOKEEPER_INIT_LIMIT: 5
       ZOOKEEPER_SYNC_LIMIT: 2
       ZOOKEEPER_SERVERS: zookeeper:2888:3888
-      # ini akan membantu untuk memeriksa kesehatan Zookeeper
       KAFKA_OPTS: "-Dzookeeper.4lw.commands.whitelist=ruok"
     volumes:
       - "./volumes/zookeeper/data:/var/lib/zookeeper/data"

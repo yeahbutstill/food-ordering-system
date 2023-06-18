@@ -3,7 +3,7 @@ server:
 
 logging:
   level:
-    com.yeahbutstill.food.ordering.system: DEBUG
+    com.food.ordering.system: DEBUG
 
 order-service:
   payment-request-topic-name: payment-request
@@ -20,19 +20,18 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQL9Dialect
   datasource:
-    url: jdbc:postgresql://localhost:5432/food-ordering-systemdb?currentSchema=order&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
-    username: foodorderingsystem
-    password: PNSJkxXvVNDAhePMuExTBuRR
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=order&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
+    username: postgres
+    password: admin
     driver-class-name: org.postgresql.Driver
     platform: postgres
-    schema:
-      classpath: init-schema.sql
+    schema: classpath:init-schema.sql
     initialization-mode: always
 
 kafka-config:
   bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
   schema-registry-url-key: schema.registry.url
-  schema-regustry-url: http://localhost:8081
+  schema-registry-url: http://localhost:8081
   num-of-partitions: 3
   replication-factor: 3
 
@@ -42,9 +41,9 @@ kafka-producer-config:
   compression-type: snappy
   acks: all
   batch-size: 16384
-  batch-size-boots-factor: 100
+  batch-size-boost-factor: 100
   linger-ms: 5
-  requst-timeout-ms: 60000
+  request-timeout-ms: 60000
   retry-count: 5
 
 kafka-consumer-config:
@@ -52,7 +51,6 @@ kafka-consumer-config:
   value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
   payment-consumer-group-id: payment-topic-consumer
   restaurant-approval-consumer-group-id: restaurant-approval-topic-consumer
-  customer-group-id: customer-topic-consumer
   auto-offset-reset: earliest
   specific-avro-reader-key: specific.avro.reader
   specific-avro-reader: true
@@ -66,4 +64,3 @@ kafka-consumer-config:
   max-partition-fetch-bytes-default: 1048576
   max-partition-fetch-bytes-boost-factor: 1
   poll-timeout-ms: 150
-

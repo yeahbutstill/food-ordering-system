@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>order-service</artifactId>
-        <groupId>com.yeahbutstill.food.ordering.system</groupId>
+        <groupId>com.food.ordering.system</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -17,24 +17,28 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-domain-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-application-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-application</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-dataaccess</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.yeahbutstill.food.ordering.system</groupId>
+            <groupId>com.food.ordering.system</groupId>
             <artifactId>order-messaging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.food.ordering.system</groupId>
+            <artifactId>common-dataaccess</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -42,10 +46,6 @@
         </dependency>
     </dependencies>
 
-<!-- ini untuk membuat file jar yang dapat dijalankan untuk layanan microservice
-dan selama perintah maven install menggunakan tujuan build-image dari plugin Spring boot maven
-untuk nama imagenya saya menggunakan ${project.groupId}/order.service:${project.version}
- -->
     <build>
         <plugins>
             <plugin>
