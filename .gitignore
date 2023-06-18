@@ -11,7 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
-.idea/
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -40,3 +40,4 @@ build/
 
 ## infra
 /infrastructure/docker-compose/volumes/
+food-ordering-systemdb-data
