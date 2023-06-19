@@ -1,7 +1,5 @@
 # food-ordering-system
 
-![1](img/project-overview-section-1.png)
-
 ## Run Postgres
 ```shell
 docker run --rm \
@@ -42,6 +40,11 @@ docker compose -f common.yml -f kafka_cluster.yml up
 docker compose -f common.yml -f kafka_cluster.yml down
 # open new terminal and run this for create topic
 docker compose -f common.yml -f init_kafka.yml up
+```
+
+## Build
+```shell
+mvn clean install
 ```
 
 ## Let's confirm this by opening the kafka manager user interface
@@ -89,3 +92,5 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - Domain events should be created in entity or domain services after related business logic is completed. 
 - Application services are the first initial contact point to the outside of domain. 
 - Domain events should be fired after the related business logic is persisted.
+- It is used to create a chain of ACID transactions across services. 
+- It is used on distributed environments that multiple services communicate.

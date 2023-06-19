@@ -73,7 +73,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
     return DECODER.decode(b);
   }
 
-  private String id;
+  private java.lang.String id;
   private int quantity;
 
   /**
@@ -88,15 +88,15 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param id The new value for id
    * @param quantity The new value for quantity
    */
-  public Product(String id, Integer quantity) {
+  public Product(java.lang.String id, java.lang.Integer quantity) {
     this.id = id;
     this.quantity = quantity;
   }
 
-  public SpecificData getSpecificData() { return MODEL$; }
+  public org.apache.avro.specific.SpecificData getSpecificData() { return MODEL$; }
   public org.apache.avro.Schema getSchema() { return SCHEMA$; }
   // Used by DatumWriter.  Applications should not call.
-  public Object get(int field$) {
+  public java.lang.Object get(int field$) {
     switch (field$) {
     case 0: return id;
     case 1: return quantity;
@@ -106,10 +106,10 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
   // Used by DatumReader.  Applications should not call.
   @SuppressWarnings(value="unchecked")
-  public void put(int field$, Object value$) {
+  public void put(int field$, java.lang.Object value$) {
     switch (field$) {
     case 0: id = value$ != null ? value$.toString() : null; break;
-    case 1: quantity = (Integer)value$; break;
+    case 1: quantity = (java.lang.Integer)value$; break;
     default: throw new IndexOutOfBoundsException("Invalid index: " + field$);
     }
   }
@@ -118,7 +118,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * Gets the value of the 'id' field.
    * @return The value of the 'id' field.
    */
-  public String getId() {
+  public java.lang.String getId() {
     return id;
   }
 
@@ -127,7 +127,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * Sets the value of the 'id' field.
    * @param value the value to set.
    */
-  public void setId(String value) {
+  public void setId(java.lang.String value) {
     this.id = value;
   }
 
@@ -152,8 +152,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * Creates a new Product RecordBuilder.
    * @return A new Product RecordBuilder
    */
-  public static Builder newBuilder() {
-    return new Builder();
+  public static com.food.ordering.system.kafka.order.avro.model.Product.Builder newBuilder() {
+    return new com.food.ordering.system.kafka.order.avro.model.Product.Builder();
   }
 
   /**
@@ -161,11 +161,11 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param other The existing builder to copy.
    * @return A new Product RecordBuilder
    */
-  public static Builder newBuilder(Builder other) {
+  public static com.food.ordering.system.kafka.order.avro.model.Product.Builder newBuilder(com.food.ordering.system.kafka.order.avro.model.Product.Builder other) {
     if (other == null) {
-      return new Builder();
+      return new com.food.ordering.system.kafka.order.avro.model.Product.Builder();
     } else {
-      return new Builder(other);
+      return new com.food.ordering.system.kafka.order.avro.model.Product.Builder(other);
     }
   }
 
@@ -174,11 +174,11 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
    * @param other The existing instance to copy.
    * @return A new Product RecordBuilder
    */
-  public static Builder newBuilder(Product other) {
+  public static com.food.ordering.system.kafka.order.avro.model.Product.Builder newBuilder(com.food.ordering.system.kafka.order.avro.model.Product other) {
     if (other == null) {
-      return new Builder();
+      return new com.food.ordering.system.kafka.order.avro.model.Product.Builder();
     } else {
-      return new Builder(other);
+      return new com.food.ordering.system.kafka.order.avro.model.Product.Builder(other);
     }
   }
 
@@ -189,7 +189,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<Product>
     implements org.apache.avro.data.RecordBuilder<Product> {
 
-    private String id;
+    private java.lang.String id;
     private int quantity;
 
     /** Creates a new Builder */
@@ -201,7 +201,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
      * Creates a Builder by copying an existing Builder.
      * @param other The existing Builder to copy.
      */
-    private Builder(Builder other) {
+    private Builder(com.food.ordering.system.kafka.order.avro.model.Product.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -217,7 +217,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
      * Creates a Builder by copying an existing Product instance
      * @param other The existing instance to copy.
      */
-    private Builder(Product other) {
+    private Builder(com.food.ordering.system.kafka.order.avro.model.Product other) {
       super(SCHEMA$, MODEL$);
       if (isValidValue(fields()[0], other.id)) {
         this.id = data().deepCopy(fields()[0].schema(), other.id);
@@ -233,7 +233,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
       * Gets the value of the 'id' field.
       * @return The value.
       */
-    public String getId() {
+    public java.lang.String getId() {
       return id;
     }
 
@@ -243,7 +243,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
       * @param value The value of 'id'.
       * @return This builder.
       */
-    public Builder setId(String value) {
+    public com.food.ordering.system.kafka.order.avro.model.Product.Builder setId(java.lang.String value) {
       validate(fields()[0], value);
       this.id = value;
       fieldSetFlags()[0] = true;
@@ -263,7 +263,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
       * Clears the value of the 'id' field.
       * @return This builder.
       */
-    public Builder clearId() {
+    public com.food.ordering.system.kafka.order.avro.model.Product.Builder clearId() {
       id = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -283,7 +283,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
       * @param value The value of 'quantity'.
       * @return This builder.
       */
-    public Builder setQuantity(int value) {
+    public com.food.ordering.system.kafka.order.avro.model.Product.Builder setQuantity(int value) {
       validate(fields()[1], value);
       this.quantity = value;
       fieldSetFlags()[1] = true;
@@ -303,7 +303,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
       * Clears the value of the 'quantity' field.
       * @return This builder.
       */
-    public Builder clearQuantity() {
+    public com.food.ordering.system.kafka.order.avro.model.Product.Builder clearQuantity() {
       fieldSetFlags()[1] = false;
       return this;
     }
@@ -313,12 +313,12 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
     public Product build() {
       try {
         Product record = new Product();
-        record.id = fieldSetFlags()[0] ? this.id : (String) defaultValue(fields()[0]);
-        record.quantity = fieldSetFlags()[1] ? this.quantity : (Integer) defaultValue(fields()[1]);
+        record.id = fieldSetFlags()[0] ? this.id : (java.lang.String) defaultValue(fields()[0]);
+        record.quantity = fieldSetFlags()[1] ? this.quantity : (java.lang.Integer) defaultValue(fields()[1]);
         return record;
       } catch (org.apache.avro.AvroMissingFieldException e) {
         throw e;
-      } catch (Exception e) {
+      } catch (java.lang.Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);
       }
     }

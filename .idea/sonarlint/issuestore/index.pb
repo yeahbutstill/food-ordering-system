@@ -81,8 +81,6 @@ acommon/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/
 icommon/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/RestaurantOrderStatus.java,6/8/68fa6e89c7adfbb0b389ec67216fdb0ca2096afa
 ‡
 Wcommon/common-domain/src/main/java/com/food/ordering/system/domain/DomainConstants.java,5/f/5fbce5953114be707efcfea1400436be181269c7
-˜
-hcustomer-service/src/main/java/com/food/ordering/system/customer/service/CustomerServiceApplication.java,c/9/c9451d8fd04f387acae0ca9d38ddea484a0bcdd0
 ^
 .infrastructure/kafka/kafka-config-data/pom.xml,8/5/8536b09c52c229b0419d82aa2204eab35b866581
 ¤
@@ -109,8 +107,6 @@ rinfrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafk
 zorder-service/order-application/src/main/java/com/food/ordering/system/order/service/application/rest/OrderController.java,5/0/502fd3789182091d123d9400155fbd242e477657
  
 porder-service/order-container/src/main/java/com/food/ordering/system/order/service/domain/BeanConfiguration.java,1/4/14fe1eefed76a8897c628ebcc5e71fc4449f5c1c
-¦
-vorder-service/order-container/src/main/java/com/food/ordering/system/order/service/domain/OrderServiceApplication.java,4/7/47a0b5ade4adc1adc07beb2662a709c2b78918cd
 ¼
 ‹order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/adapter/CustomerRepositoryImpl.java,f/1/f1285781161c5bc6f5581908eca1419fadbf21b2
 ³
