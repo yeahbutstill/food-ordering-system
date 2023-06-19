@@ -85,3 +85,7 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - RestController: Used to create a rest controller with path mapping, and accept type. 
 - RequestBody: Used to mark a java class as a request body in the rest request. Spring will map the json body into this class by setting the values automatically. 
 - PostMapping: Used to create a method that will serve to a http post request.
+- Entities and domain services has the business logic. 
+- Domain events should be created in entity or domain services after related business logic is completed. 
+- Application services are the first initial contact point to the outside of domain. 
+- Domain events should be fired after the related business logic is persisted.
