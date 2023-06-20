@@ -53,9 +53,12 @@ localhost:9000
 ```
 
 ## Add Cluster
-![add_cluster](img/img.png)
+```text
+localhost:9000
+name cluster: food-ordering-system-cluster
+host: zookeeper:2128
+```
 And save. Now, if I list the clusters, I will see three brokers and a topic created using init-kafka.yml docker compose file
-![cluster_information](img/img_1.png)
 
 ## Check data in topic using kafkacat
 ```shell
@@ -63,7 +66,6 @@ kcat -C -b localhost:19092 -t payment-request
 ```
 
 ##### ingat saat anda menggunakan pemetaan volume, anda harus terlebih dahulu memulai Zookeeper dan kemudian memulai Cluster Kafka, karena kafka cluster memeriksa kesehatan Zookeeper saat startup dan gagal jika tidak sehat
-kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kubernetes untuk menjalankan Cluster Kafka
 
 ## Note
 - The main target of all these architectures is to isolate the domain layer to develop, test, manage and deploy it separately.
@@ -101,3 +103,6 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - Two ways to implement publishing part are Pulling the outbox table and CDC(Change Data Capture). 
 - It makes SAGA pattern consistent when combined with SAGA.
 - CQRS is used to separate write and read parts with eventual consistency
+- Pod is the smallest deployable unit. 
+- A pod can consist of one or more containers. 
+- Services are used to expose deployment through NodePort or Loadbalancer.
