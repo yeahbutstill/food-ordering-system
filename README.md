@@ -94,3 +94,9 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - Domain events should be fired after the related business logic is persisted.
 - It is used to create a chain of ACID transactions across services. 
 - It is used on distributed environments that multiple services communicate.
+- SAGA is difficult to debug as multiple microservices are involved. So it it crucial to have a robust tracing implementations, with trace and span id. 
+- As a result of compensating transactions, when user sees a change, in the second look after some time, 
+- It is used to add a strong consistency between local acid transactions and event publishing operation. 
+- It relies on keeping the domain events in local database to be published later. 
+- Two ways to implement publishing part are Pulling the outbox table and CDC(Change Data Capture). 
+- It makes SAGA pattern consistent when combined with SAGA.
