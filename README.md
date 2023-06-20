@@ -100,3 +100,4 @@ kedepannya saya akan coba menganti docker compose dengan cp-helm-charts dari kub
 - It relies on keeping the domain events in local database to be published later. 
 - Two ways to implement publishing part are Pulling the outbox table and CDC(Change Data Capture). 
 - It makes SAGA pattern consistent when combined with SAGA.
+- CQRS is used to separate write and read parts with eventual consistency

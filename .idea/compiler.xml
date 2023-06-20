@@ -28,6 +28,7 @@
         <module name="kafka-producer" />
         <module name="kafka-config-data" />
         <module name="payment-dataaccess" />
+        <module name="outbox" />
         <module name="order-container" />
         <module name="restaurant-dataaccess" />
         <module name="payment-container" />
@@ -38,7 +39,6 @@
       <module name="kafka-consumer (1) (com.food.ordering.system)" target="17" />
       <module name="kafka-consumer (2)" target="17" />
       <module name="kafka1" target="17" />
-      <module name="outbox" target="17" />
       <module name="payment-domain-service" target="17" />
       <module name="payment-service" target="17" />
     </bytecodeTargetLevel>
