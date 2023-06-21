@@ -1,6 +1,4 @@
 
-R
-"order-service/order-domain/pom.xml,6/c/6c488d4235eb8af9fe6c7a0dcd6d396f5fb3b9db
 d
 4order-service/order-domain/order-domain-core/pom.xml,e/2/e2c9ec2a77daaaa98761010294a2cfad7cd6acdd
 >
@@ -17,10 +15,6 @@ X
 +infrastructure/kafka/kafka-consumer/pom.xml,1/7/174450eb89f9fc83c593a3864ff160aa5b470840
 Q
 !common/common-application/pom.xml,2/5/251beafe1151d7bf4f9d3729b7bbb2d3d0cfcfdc
-W
-'order-service/order-application/pom.xml,c/1/c13909372c066d2ca806095848840a1448aaa7e1
-V
-&order-service/order-dataaccess/pom.xml,9/6/96841bae7eb60ba0a53c40d05329483864d6c2f8
 ¼
 ‹payment-service/payment-domain/payment-domain-core/src/main/java/com/food/ordering/system/payment/service/domain/valueobject/PaymentId.java,7/2/72c93eb6d9d27a5d9233060af576a312e11130c7
 µ
