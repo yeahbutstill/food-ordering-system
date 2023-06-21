@@ -16,7 +16,7 @@
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
         <groupId>org.springframework.boot</groupId>
-        <version>3.0.5</version>
+        <version>3.1.0</version>
         <relativePath/>
     </parent>
 
@@ -26,10 +26,10 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <mockito.version>5.2.0</mockito.version>
-        <spring-kafka.version>3.0.5</spring-kafka.version>
-        <kafka-avro-serializer.version>7.3.3</kafka-avro-serializer.version>
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <mockito.version>5.4.0</mockito.version>
+        <spring-kafka.version>3.0.8</spring-kafka.version>
+        <kafka-avro-serializer.version>7.4.0</kafka-avro-serializer.version>
         <avro.version>1.11.1</avro.version>
     </properties>
 
@@ -190,6 +190,17 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

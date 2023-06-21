@@ -29,7 +29,7 @@ import static org.springframework.test.context.jdbc.Sql.ExecutionPhase.AFTER_TES
 @SpringBootTest(classes = OrderServiceApplication.class)
 @Sql(value = {"classpath:sql/OrderPaymentSagaTestSetUp.sql"})
 @Sql(value = {"classpath:sql/OrderPaymentSagaTestCleanUp.sql"}, executionPhase = AFTER_TEST_METHOD)
-public class OrderPaymentSagaTest {
+class OrderPaymentSagaTest {
 
     @Autowired
     private OrderPaymentSaga orderPaymentSaga;
