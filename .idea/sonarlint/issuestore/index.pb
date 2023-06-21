@@ -9,8 +9,6 @@ L
 common/common-domain/pom.xml,3/e/3ebe72cff67b25b3f376cc963b57146cc5d43487
 F
 infrastructure/pom.xml,2/b/2bb83dd43ff74bd2017133cd9dea6897cfe43de3
-L
-infrastructure/kafka/pom.xml,5/7/57d8d8349e1f824686cd44fe2200377b17148804
 X
 (infrastructure/kafka/kafka-model/pom.xml,b/5/b5ebdc449af44ac439d81aad072e585df2d63cc3
 [
@@ -95,10 +93,6 @@ winfrastructure/kafka/kafka-model/src/main/java/com/food/ordering/system/kafka/o
 infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/exception/KafkaProducerException.java,0/a/0a7d0ff59cd173505292873d00eb141c35f0d767
 ¡
 qinfrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/KafkaMessageHelper.java,b/2/b2d063f2e4eb848e058967ed4d8e8c09e3e85fd3
-­
-}infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/impl/KafkaProducerImpl.java,c/0/c07c33366fc961f7e74e3fcd3f4eeb824a3fdcf8
-¤
-tinfrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/KafkaProducer.java,6/b/6bbc2d33d55c652423c3813ce09b3303da4cff19
 ¢
 rinfrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/KafkaProducerConfig.java,0/4/04af796edbe629a19946d83439f81c19947ad69c
 Ä
@@ -139,10 +133,6 @@ porder-service/order-container/src/main/java/com/food/ordering/system/order/serv
 Minfrastructure/saga/src/main/java/com/food/ordering/system/saga/SagaStep.java,3/5/35c21bc06deb29ca588a5074b0f8e2d3a70a2d06
 ‰
 Ycommon/common-domain/src/main/java/com/food/ordering/system/domain/event/DomainEvent.java,8/9/89671dba0b49b1a9ddccb985e45b526845e3d3aa
-H
-json-files/customer.json,b/0/b081857b941858289514ae0e2b80ac7e7b7b0e35
-E
-json-files/order.json,9/1/91039ad396cd889ed0ec1bef261f4fb972662483
 Ð
 Ÿpayment-service/payment-domain/payment-application-service/src/main/java/com/food/ordering/system/payment/service/domain/PaymentRequestMessageListenerImpl.java,4/d/4d7ce7dcaa590d7a320799b70e4d4e6a015f331e
 Ã
@@ -153,8 +143,6 @@ E
 Oinfrastructure/saga/src/main/java/com/food/ordering/system/saga/SagaStatus.java,0/c/0ccfea9e099469dc3fb4d2f7ced38e4e78eb2af7
 M
 infrastructure/outbox/pom.xml,e/c/ec6fa95f6aa6a4630b350f52bf425153c4fd2627
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 l
 <order-service/order-domain/order-application-service/pom.xml,7/8/788638a3f575d9e226f07937dfe43f5e87b6139f
 Õ
