@@ -2,9 +2,9 @@
   "customerId": "d215b5f8-0249-4dc5-89a3-51fd148cfb41",
   "restaurantId": "d215b5f8-0249-4dc5-89a3-51fd148cfb45",
   "address": {
-    "street": "Kemiri",
-    "postalCode": "16320",
-    "city": "Depok"
+    "street": "street_1",
+    "postalCode": "1000AB",
+    "city": "Amsterdam"
   },
   "price": 200.00,
   "items": [
